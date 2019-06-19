@@ -8,7 +8,9 @@ include 'data.php';
   <head>
     <meta charset="utf-8">
     <title></title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.1.2/handlebars.min.js" type="text/javascript"></script>
     <link rel="stylesheet" href="public/css/app.css">
+    <script src="public/js/app.js" type="text/javascript"></script>
   </head>
   <body>
 
