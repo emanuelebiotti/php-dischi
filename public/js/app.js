@@ -10709,8 +10709,8 @@ $(document).ready(function () {
   $.ajax({
     'url': 'http://localhost:8888/php-dischi/data.php',
     'method': 'GET',
-    'success': function success() {
-      alert('la chiamata ajax funziona');
+    'success': function success(data) {
+      console.log(JSON.parse(data));
     },
     'error': function error() {
       alert('si è verificato un errore');
