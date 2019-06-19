@@ -44,8 +44,8 @@ $dischi = [
    'anno_uscita' => '2018'
   ]
 
+];
 
-]
-
+echo json_encode($dischi);
 
  ?>
