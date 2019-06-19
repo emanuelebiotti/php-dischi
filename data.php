@@ -35,7 +35,15 @@ $dischi = [
    'titolo_album' => 'Man of the woods',
    'nome_artista' => 'Justin Timberlake',
    'anno_uscita' => '2018'
+ ],
+
+  [
+   'immagine_copertina' => 'https://www.significatocanzoni.it/wp-content/uploads/significato-sweet-but-psycho-ava-max.jpg',
+   'titolo_album' => 'Sweet but psycho',
+   'nome_artista' => 'Ava Max',
+   'anno_uscita' => '2018'
   ]
+
 
 ]
 
