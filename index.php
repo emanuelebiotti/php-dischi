@@ -1,5 +1,5 @@
 <?php
-include data.php;
+include 'data.php';
 
  ?>
 
@@ -15,46 +15,18 @@ include data.php;
     <nav>
 
     </nav>
-    
+
     <div class="main">
 
-      <div class="disco">
-        <img src="https://upload.wikimedia.org/wikipedia/en/8/86/Taylor_Swift_-_Fearless.png" alt="">
-        <p>Titolo</p>
-        <p>Artista</p>
-        <p>Anno</p>
-      </div>
+      <?php foreach ($dischi as $disco) { ?>
 
-      <div class="disco">
-        <img src="https://upload.wikimedia.org/wikipedia/en/8/86/Taylor_Swift_-_Fearless.png" alt="">
-        <p>Titolo</p>
-        <p>Artista</p>
-        <p>Anno</p>
-      </div>
-      <div class="disco">
-        <img src="https://upload.wikimedia.org/wikipedia/en/8/86/Taylor_Swift_-_Fearless.png" alt="">
-        <p>Titolo</p>
-        <p>Artista</p>
-        <p>Anno</p>
-      </div>
-      <div class="disco">
-        <img src="https://upload.wikimedia.org/wikipedia/en/8/86/Taylor_Swift_-_Fearless.png" alt="">
-        <p>Titolo</p>
-        <p>Artista</p>
-        <p>Anno</p>
-      </div>
-      <div class="disco">
-        <img src="https://upload.wikimedia.org/wikipedia/en/8/86/Taylor_Swift_-_Fearless.png" alt="">
-        <p>Titolo</p>
-        <p>Artista</p>
-        <p>Anno</p>
-      </div>
-      <div class="disco">
-        <img src="https://upload.wikimedia.org/wikipedia/en/8/86/Taylor_Swift_-_Fearless.png" alt="">
-        <p>Titolo</p>
-        <p>Artista</p>
-        <p>Anno</p>
-      </div>
+        <div class="disco">
+          <img src="<?php echo $disco['immagine_copertina'] ?>" alt="<?php echo $disco['copertina'] ?>">
+          <p><?php echo $disco['titolo_album'] ?></p>
+          <p><?php echo $disco['nome_artista'] ?></p>
+          <p><?php echo $disco['anno_uscita'] ?></p>
+        </div>
+       <?php } ?>
 
     </div>
 
