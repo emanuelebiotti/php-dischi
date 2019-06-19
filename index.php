@@ -12,18 +12,50 @@ include data.php;
   </head>
   <body>
 
-    <h1>Ecco un po' di album musicali </h1>
+    <nav>
 
+    </nav>
+    
     <div class="main">
 
-      <h2>questo è un disco:</h2>
       <div class="disco">
-        <?php
-
-
-        ?>
-
+        <img src="https://upload.wikimedia.org/wikipedia/en/8/86/Taylor_Swift_-_Fearless.png" alt="">
+        <p>Titolo</p>
+        <p>Artista</p>
+        <p>Anno</p>
       </div>
+
+      <div class="disco">
+        <img src="https://upload.wikimedia.org/wikipedia/en/8/86/Taylor_Swift_-_Fearless.png" alt="">
+        <p>Titolo</p>
+        <p>Artista</p>
+        <p>Anno</p>
+      </div>
+      <div class="disco">
+        <img src="https://upload.wikimedia.org/wikipedia/en/8/86/Taylor_Swift_-_Fearless.png" alt="">
+        <p>Titolo</p>
+        <p>Artista</p>
+        <p>Anno</p>
+      </div>
+      <div class="disco">
+        <img src="https://upload.wikimedia.org/wikipedia/en/8/86/Taylor_Swift_-_Fearless.png" alt="">
+        <p>Titolo</p>
+        <p>Artista</p>
+        <p>Anno</p>
+      </div>
+      <div class="disco">
+        <img src="https://upload.wikimedia.org/wikipedia/en/8/86/Taylor_Swift_-_Fearless.png" alt="">
+        <p>Titolo</p>
+        <p>Artista</p>
+        <p>Anno</p>
+      </div>
+      <div class="disco">
+        <img src="https://upload.wikimedia.org/wikipedia/en/8/86/Taylor_Swift_-_Fearless.png" alt="">
+        <p>Titolo</p>
+        <p>Artista</p>
+        <p>Anno</p>
+      </div>
+
     </div>
 
 
