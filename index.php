@@ -35,6 +35,14 @@
 
     </div>
 
+    <script id="template-disco" type="text/x-handlebars-template">
+      <div class="disco">
+        <img src="{{copertina}}" alt="{{copertina}}">
+        <p>{{titolo}}</p>
+        <p>{{nome}}</p>
+        <p>{{anno}}</p>
+      </div>
+    </script>
 
 
 
